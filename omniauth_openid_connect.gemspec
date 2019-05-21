@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'addressable', '~> 2.5'
   spec.add_dependency 'omniauth', '~> 1.3'
-  spec.add_dependency 'openid_connect', '~> 1.1'
+  spec.add_dependency 'openid_connect', git: 'git@github.com:leonp1991/openid_connect.git'
   spec.add_development_dependency 'coveralls', '~> 0.8'
   spec.add_development_dependency 'faker', '~> 1.6'
   spec.add_development_dependency 'guard', '~> 2.14'
